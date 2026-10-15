@@ -8,3 +8,5 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+- All AI calls go through the server route src/routes/api/generate.ts using prompt templates in src/lib/prompts.ts — keeps the AI key server-side and prompts in one place.
